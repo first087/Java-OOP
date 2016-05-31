@@ -1,8 +1,10 @@
+import workshop.Car;
 import workshop.FirstClass;
 
 public class Main {
     public static void main(String[] args) {
 //        OOPWorkshop1();
+//        OOPWorkshop2();
     }
 
     private static void OOPWorkshop1() {
@@ -15,5 +17,15 @@ public class Main {
         System.out.println(object1.getDateCreate());
         System.out.println(object2.getDateCreate());
         System.out.println(object3.getDateCreate());
+    }
+
+    private static void OOPWorkshop2() {
+        // Workshop #2 - Constructor / Destructor
+        // At class Car in folder workshop
+        // Create Constructor with 1 parameter [String color]
+        // Set value from color to mColor and print log in constructor
+        // Create Destructor and free mColor
+
+        Car car = null; // TODO : Create object from class Car
     }
 }

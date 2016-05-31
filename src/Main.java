@@ -17,6 +17,8 @@ public class Main {
         System.out.println(object1.getDateCreate());
         System.out.println(object2.getDateCreate());
         System.out.println(object3.getDateCreate());
+
+        // Run!
     }
 
     private static void OOPWorkshop2() {
@@ -27,5 +29,9 @@ public class Main {
         // Create Destructor and free mColor
 
         Car car = null; // TODO : Create object from class Car
+
+        // Run!
+        // Change mColor to color and fixed problem
+        // Run again!
     }
 }

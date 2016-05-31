@@ -24,7 +24,7 @@ public class Main {
     }
 
     private static void OOPWorkshop2() {
-        // Workshop #2 - Constructor / Destructor
+        // Workshop #2 - Constructor and Destructor
 
         // ----- PART 1 -----
         // At class Car in folder workshop

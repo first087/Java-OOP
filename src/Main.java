@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 //        OOPWorkshop1();
 //        OOPWorkshop2();
+        OOPWorkshop3();
     }
 
     private static void OOPWorkshop1() {
@@ -44,5 +45,25 @@ public class Main {
         // Run!
         // Change mColor to color and fix problem
         // Run again!
+    }
+
+    private static void OOPWorkshop3() {
+        // Workshop #3 - Attribute / Member and Method
+
+        // At class Car in folder workshop
+        // Create 1 attribute [int gear]
+        // Initialize gear = 0 in constructor
+        // Add getter for gear
+        // Add method gearUp(), gearDown() and set gear++, gear-- in method and print log in method
+
+        Car car1 = null; // TODO : Create object 1 from class Car
+        Car car2 = null; // TODO : Create object 1 from class Car
+
+        // TODO : car1 - call gearUp(), getGear() and print log
+        // TODO : car2 - call gearUp(), gearUp(), getGear() and print log
+        // TODO : car1 - call gearDown(), getGear() and print log
+        // TODO : car2 - call gearDown(), getGear() and print log
+
+        // Run!
     }
 }

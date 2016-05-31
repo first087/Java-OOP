@@ -5,10 +5,10 @@ import java.util.Date;
 /**
  * Created by Artit on 31/5/2559.
  */
-public class Workshop1 {
+public class FirstClass {
     private Date dateCreate;
 
-    public Workshop1() {
+    public FirstClass() {
         dateCreate = new Date();
 
         try {

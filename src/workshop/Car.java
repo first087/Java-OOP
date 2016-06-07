@@ -34,4 +34,11 @@ public class Car {
     }
 
     // Method
+    public void gearUp() {
+        gear++;
+    }
+
+    public void gearDown() {
+        gear--;
+    }
 }

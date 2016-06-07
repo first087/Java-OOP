@@ -9,6 +9,10 @@ public class Car {
 
     // Constructor
 
+    public Car() {
+        System.out.println("Execute in constructor of class Car");
+    }
+
     // Destructor
 
     // Getter

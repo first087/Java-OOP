@@ -11,6 +11,7 @@ public class Car {
     // Constructor
 
     public Car() {
+        this.color = "default";
         gear = 0;
         System.out.println("Execute in constructor of class Car");
     }
@@ -36,11 +37,11 @@ public class Car {
     // Method
     public void gearUp() {
         gear++;
-        System.out.println("Change gear to " + gear);
+        System.out.println(color + " Car change gear to " + gear);
     }
 
     public void gearDown() {
         gear--;
-        System.out.println("Change gear to " + gear);
+        System.out.println(color + " Car change gear to " + gear);
     }
 }

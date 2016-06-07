@@ -56,10 +56,11 @@ public class Main {
         // Add getter for gear
         // Add method gearUp(), gearDown() and set gear++, gear-- in method and print log in method
 
-        Car car1 = null; // TODO : Create object 1 from class Car
-        Car car2 = null; // TODO : Create object 2 from class Car
+        Car car1 = new Car("green");
+        Car car2 = new Car("blue");
 
         // TODO : car1 - call gearUp(), getGear() and print log
+        car1.gearUp();
         // TODO : car2 - call gearUp(), gearUp(), getGear() and print log
         // TODO : car1 - call gearDown(), getGear() and print log
         // TODO : car2 - call gearDown(), getGear() and print log

@@ -29,6 +29,9 @@ public class Car {
     }
 
     // Getter
+    public int getGear() {
+        return gear;
+    }
 
     // Method
 }

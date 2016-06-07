@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 //        OOPWorkshop1();
 //        OOPWorkshop2();
-        OOPWorkshop3();
-//        OOPWorkshop4();
+//        OOPWorkshop3();
+        OOPWorkshop4();
     }
 
     private static void OOPWorkshop1() {

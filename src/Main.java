@@ -81,10 +81,15 @@ public class Main {
         // At class Car in folder workshop
         // Add method gearUp(int step), gearDown(int step), update gear attribute and print log in method
 
-        Car car = null; // TODO : Create object from class Car
+        Car car = new Car();
 
-        // TODO : call gearUp(), gearUp(2), getGear() and print log
-        // TODO : call gearDown(), gearDown(2), getGear() and print log
+        car.gearUp();
+        car.gearUp(2);
+        System.out.println("car have current gear = " + String.valueOf(car.getGear()));
+
+        car.gearDown();
+        car.gearDown(2);
+        System.out.println("car have current gear = " + String.valueOf(car.getGear()));
 
         // Run!
     }

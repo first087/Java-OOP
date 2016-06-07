@@ -41,7 +41,7 @@ public class Main {
         // Set value from color to mColor and print log in constructor
         // Create Destructor and free mColor
 
-        Car car2 = null; // TODO : Create object from class Car
+        Car car2 = new Car("red");
 
         // Run!
         // Change mColor to color and fix problem

@@ -115,10 +115,9 @@ public class Main {
         // Workshop 6 - Interface and Implement
 
         // Create interface IAnimal into folder workshop
-        // Add attribute name (type String)
-        // Add attribute age (type int)
-        // Add attribute canFly (type boolean)
-        // Add getter/setter for all attribute
+        // Add getter/setter for attribute name (type String)
+        // Add getter/setter for attribute age (type int)
+        // Add getter/setter for attribute canFly (type boolean)
         // Add method Speak() (return String)
         // Create class Animal into folder workshop
         // Implement Animal with IAnimal

@@ -7,6 +7,7 @@ public class Main {
 //        OOPWorkshop2();
 //        OOPWorkshop3();
 //        OOPWorkshop4();
+//        OOPWorkshop5();
     }
 
     private static void OOPWorkshop1() {
@@ -79,5 +80,20 @@ public class Main {
         // TODO : call gearDown(), gearDown(2), getGear() and print log
 
         // Run!
+    }
+
+    private static void OOPWorkshop5() {
+        // Workshop 5 - Override
+
+        Car car = null; // TODO : Create object from class Car with parameter
+
+        System.out.println("Call method toString() -> " + car.toString());
+
+        // Run!
+
+        // At class Car in folder workshop
+        // Override method toString() and return "This {color} car"
+
+        // Run again!
     }
 }

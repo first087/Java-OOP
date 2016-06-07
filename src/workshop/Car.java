@@ -6,15 +6,18 @@ package workshop;
 public class Car {
     // Attribute / Member
     private String color;
+    private int gear;
 
     // Constructor
 
     public Car() {
+        gear = 0;
         System.out.println("Execute in constructor of class Car");
     }
 
     public Car(String color) {
         this.color = color;
+        gear = 0;
         System.out.println("Execute in constructor of class Car with color = " + color);
     }
 

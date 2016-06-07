@@ -4,8 +4,8 @@ import workshop.FirstClass;
 public class Main {
     public static void main(String[] args) {
 //        OOPWorkshop1();
-        OOPWorkshop2();
-//        OOPWorkshop3();
+//        OOPWorkshop2();
+        OOPWorkshop3();
 //        OOPWorkshop4();
     }
 

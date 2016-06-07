@@ -3,7 +3,7 @@ import workshop.FirstClass;
 
 public class Main {
     public static void main(String[] args) {
-//        OOPWorkshop1();
+        OOPWorkshop1();
 //        OOPWorkshop2();
 //        OOPWorkshop3();
 //        OOPWorkshop4();
@@ -13,9 +13,9 @@ public class Main {
         // Workshop #1 - Class vs Object
 
         // Create 3 objects from class FirstClass
-        FirstClass object1 = null;  // TODO : Create object 1 from class FirstClass
-        FirstClass object2 = null;  // TODO : Create object 2 from class FirstClass
-        FirstClass object3 = null;  // TODO : Create object 3 from class FirstClass
+        FirstClass object1 = new FirstClass();
+        FirstClass object2 = new FirstClass();
+        FirstClass object3 = new FirstClass();
 
         System.out.println(object1.getDateCreate());
         System.out.println(object2.getDateCreate());

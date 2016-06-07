@@ -36,9 +36,11 @@ public class Car {
     // Method
     public void gearUp() {
         gear++;
+        System.out.println("Change gear to " + gear);
     }
 
     public void gearDown() {
         gear--;
+        System.out.println("Change gear to " + gear);
     }
 }

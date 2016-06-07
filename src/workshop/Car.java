@@ -36,12 +36,14 @@ public class Car {
 
     // Method
     public void gearUp() {
+        int oldGear = gear;
         gear++;
-        System.out.println(color + " Car change gear to " + gear);
+        System.out.println(color + " Car change gear from " + oldGear + " to " + gear);
     }
 
     public void gearDown() {
+        int oldGear = gear;
         gear--;
-        System.out.println(color + " Car change gear to " + gear);
+        System.out.println(color + " Car change gear from " + oldGear + " to " + gear);
     }
 }

@@ -36,7 +36,6 @@ public class Main {
         // Run!
 
         // ----- PART 2 -----
-        // TODO : Remark car1
         // Add 1 parameter to constructor [String color]
         // Set value from color to mColor and print log in constructor
         // Create Destructor and free mColor

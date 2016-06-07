@@ -59,11 +59,18 @@ public class Main {
         Car car1 = new Car("green");
         Car car2 = new Car("blue");
 
-        // TODO : car1 - call gearUp(), getGear() and print log
         car1.gearUp();
-        // TODO : car2 - call gearUp(), gearUp(), getGear() and print log
-        // TODO : car1 - call gearDown(), getGear() and print log
-        // TODO : car2 - call gearDown(), getGear() and print log
+        System.out.println("car1 have current gear = " + String.valueOf(car1.getGear()));
+
+        car2.gearUp();
+        car2.gearUp();
+        System.out.println("car2 have current gear = " + String.valueOf(car2.getGear()));
+
+        car1.gearDown();
+        System.out.println("car1 have current gear = " + String.valueOf(car1.getGear()));
+
+        car2.gearDown();
+        System.out.println("car2 have current gear = " + String.valueOf(car2.getGear()));
 
         // Run!
     }

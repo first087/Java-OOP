@@ -58,4 +58,9 @@ public class Car {
         gear -= step;
         System.out.println(color + " Car change gear from " + oldGear + " to " + gear);
     }
+
+    @Override
+    public String toString() {
+        return "This is " + color + " car";
+    }
 }

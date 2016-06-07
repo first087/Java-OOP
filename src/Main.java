@@ -7,7 +7,7 @@ public class Main {
 //        OOPWorkshop2();
 //        OOPWorkshop3();
 //        OOPWorkshop4();
-//        OOPWorkshop5();
+        OOPWorkshop5();
     }
 
     private static void OOPWorkshop1() {
@@ -98,7 +98,7 @@ public class Main {
     private static void OOPWorkshop5() {
         // Workshop 5 - Override
 
-        Car car = null; // TODO : Create object from class Car with parameter
+        Car car = new Car("gold");
 
         System.out.println("Call method toString() -> " + car.toString());
 

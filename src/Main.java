@@ -105,7 +105,7 @@ public class Main {
         // Run!
 
         // At class Car in folder workshop
-        // Override method toString() and return "This {color} car"
+        // Override method toString() and return "This is {color} car"
 
         // Run again!
     }

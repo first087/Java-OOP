@@ -7,7 +7,8 @@ public class Main {
 //        OOPWorkshop2();
 //        OOPWorkshop3();
 //        OOPWorkshop4();
-        OOPWorkshop5();
+//        OOPWorkshop5();
+//        OOPWorkshop6();
     }
 
     private static void OOPWorkshop1() {
@@ -108,5 +109,30 @@ public class Main {
         // Override method toString() and return "This is {color} car"
 
         // Run again!
+    }
+
+    private static void OOPWorkshop6() {
+        // Workshop 6 - Interface and Implement
+
+        // Create interface IAnimal into folder workshop
+        // Add attribute name (type String)
+        // Add attribute age (type int)
+        // Add attribute canFly (type boolean)
+        // Add getter/setter for all attribute
+        // Add method Speak() (return String)
+        // Create class Animal into folder workshop
+        // Implement Animal with IAnimal
+
+        // TODO : Uncomment below
+//        IAnimal animal = new Animal("tweety", 2);
+//        animal.setCanFly(true);
+//        System.out.println(
+//                        "Animal name = " + animal.getName() + "\n"
+//                        + "\tage = " + animal.getAge() + "\n"
+//                        + "\tcanFly = " + animal.isCanFly()
+//        );
+//        System.out.println("Animal speak = " + animal.Speak());
+
+        // Run!
     }
 }

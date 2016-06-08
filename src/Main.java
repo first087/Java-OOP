@@ -157,7 +157,7 @@ public class Main {
         // Add constructor with 2 parameter for initial 2 attributes
         // Add abstract method speak (return String)
         // Add method echo (return void) and print log in method
-        // Remove all attribute and method speak in class Dog, Cat and Bird
+        // Remove all attribute, method speak and code in constructor in class Dog, Cat and Bird
         // Refactor class Dog, Cat, Bird with extends class Pet
         // In method speak of class Dog, Cat, Bird call method echo
 

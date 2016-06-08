@@ -11,6 +11,7 @@ public class Main {
 //        OOPWorkshop6();
 //        OOPWorkshop7();
 //        OOPWorkshop8();
+//        OOPWorkshop9();
     }
 
     private static void OOPWorkshop1() {
@@ -191,5 +192,36 @@ public class Main {
         // TODO : Print color and legs in method speak in class Dog, Cat and Bird
 
         // Run!
+    }
+
+    private static void OOPWorkshop9() {
+        // Workshop 9 - Recap
+
+        // Create class Rectangle, Triangle and Square into folder workshop
+        // In 3 classes have attribute width, height and mathematical formula
+        // In 3 classes have method for return calculate area
+        // In 3 classes have method for print mathematical formula and call at constructor
+
+        // TODO : Create 3 objects from 3 classes and call method for calculate area
+
+        // Run!
+
+        System.out.println("----- END PART 1 -----");
+
+        // Refactor 3 classes use abstract class Shape
+        // Set accessibility for hidden Shape constructor method for print mathematical formula
+
+        // Run again!
+
+        System.out.println("----- END PART 2 -----");
+
+        // Create class Circle and inherit from class Square
+        // Use override every method
+
+        // TODO : Create circle object from class Circle and call method for calculate area
+
+        // Run!
+
+        System.out.println("----- END PART 3 -----");
     }
 }

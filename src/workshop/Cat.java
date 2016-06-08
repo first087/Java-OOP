@@ -10,4 +10,8 @@ public class Cat {
     public String speak() {
         return "Meaw Meaw";
     }
+
+    public void run() {
+        System.out.println("Cat can run");
+    }
 }

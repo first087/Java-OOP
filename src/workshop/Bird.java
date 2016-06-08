@@ -10,4 +10,8 @@ public class Bird {
     public String speak() {
         return "Jib Jib";
     }
+
+    public void fly() {
+        System.out.println("Bird can fly");
+    }
 }

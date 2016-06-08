@@ -150,7 +150,7 @@ public class Main {
         // Run!
 
         // ----- PART 2 -----
-        // Create Class Pet into folder workshop
+        // Create abstract class Pet into folder workshop
         // Add attribute color (type String)
         // Add attribute legs (type int)
         // Add abstract method speak (return String)

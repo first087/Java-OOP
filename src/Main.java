@@ -150,6 +150,8 @@ public class Main {
 
         // Run!
 
+        System.out.println("----- END PART 1 -----");
+
         // ----- PART 2 -----
         // Create abstract class Pet into folder workshop
         // Add attribute color (type String)
@@ -163,6 +165,8 @@ public class Main {
 
         // Run again!
 
+        System.out.println("----- END PART 2 -----");
+
         // ----- PART 3 -----
         // TODO : Uncomment below
 //        Pet doggy = new Dog("brown", 4);
@@ -174,5 +178,7 @@ public class Main {
         // TODO : call method fly of birdy
 
         // Run!
+
+        System.out.println("----- END PART 3 -----");
     }
 }

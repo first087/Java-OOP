@@ -214,8 +214,8 @@ public class Main {
         ((Cat)catty).run();
         ((Bird)birdy).fly();
 
-        // TODO : Hidden method echo
-        // TODO : print color and legs in method speak
+        // TODO : Hidden constructor and method echo in class Pet
+        // TODO : Print color and legs in method speak in class Dog, Cat and Bird
 
         // Run!
     }

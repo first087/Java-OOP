@@ -177,11 +177,13 @@ public class Main {
 
         // ----- PART 3 -----
         // TODO : Uncomment below
-//        Pet doggy = new Dog("brown", 4);
-//        Pet catty = new Cat("white", 4);
-//        Pet birdy = new Bird("blue", 2);
+        Pet doggy = new Dog("brown", 4);
+        Pet catty = new Cat("white", 4);
+        Pet birdy = new Bird("blue", 2);
 
-        // TODO : call method speak of doggy, catty, birdy
+        System.out.println("Doggy speak " + doggy.speak());
+        System.out.println("Catty speak " + catty.speak());
+        System.out.println("Birdy speak " + birdy.speak());
         // TODO : call method run of doggy, catty
         // TODO : call method fly of birdy
 

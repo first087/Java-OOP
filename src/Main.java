@@ -187,7 +187,7 @@ public class Main {
 
         ((Dog)doggy).run();
         ((Cat)catty).run();
-        // TODO : call method fly of birdy
+        ((Bird)birdy).fly();
 
         // Run!
     }

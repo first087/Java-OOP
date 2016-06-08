@@ -199,6 +199,7 @@ public class Main {
 
         // Create class Rectangle, Triangle and Square into folder workshop
         // In 3 classes have attribute width, height and mathematical formula
+        // In 3 classes have overload setter setDimension(int, int) and setDimension(int)
         // In 3 classes have method for return calculate area
         // In 3 classes have method for print mathematical formula and call at constructor
 

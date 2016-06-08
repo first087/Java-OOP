@@ -6,4 +6,8 @@ package workshop;
 public class Bird {
     private String color;
     private int legs;
+
+    public String speak() {
+        return "Jib Jib";
+    }
 }

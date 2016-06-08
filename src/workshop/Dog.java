@@ -6,4 +6,8 @@ package workshop;
 public class Dog {
     private String color;
     private int legs;
+
+    public String speak() {
+        return "Box Box";
+    }
 }

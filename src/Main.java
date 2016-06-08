@@ -136,7 +136,7 @@ public class Main {
     }
 
     private static void OOPWorkshop7() {
-        // Workshop 6 - Abstract Class and Inherit / Extend
+        // Workshop 7 - Abstract Class and Inherit / Extend
 
         // ----- PART 1 -----
         // Create class Dog, Cat and Bird into folder workshop

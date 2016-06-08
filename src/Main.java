@@ -10,6 +10,7 @@ public class Main {
 //        OOPWorkshop5();
 //        OOPWorkshop6();
 //        OOPWorkshop7();
+//        OOPWorkshop8();
     }
 
     private static void OOPWorkshop1() {
@@ -180,5 +181,15 @@ public class Main {
         // Run!
 
         System.out.println("----- END PART 3 -----");
+    }
+
+    private static void OOPWorkshop8() {
+        // Workshop 8 - Accessibility
+
+        // TODO : Copy code from Workshop 7 Part 3 to here
+        // TODO : Hidden method echo
+        // TODO : print color and legs in method speak
+
+        // Run!
     }
 }

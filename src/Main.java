@@ -9,7 +9,7 @@ public class Main {
 //        OOPWorkshop5();
 //        OOPWorkshop6();
 //        OOPWorkshop7();
-//        OOPWorkshop8();
+        OOPWorkshop8();
     }
 
     private static void OOPWorkshop1() {
@@ -202,7 +202,18 @@ public class Main {
     private static void OOPWorkshop8() {
         // Workshop 8 - Accessibility
 
-        // TODO : Copy code from Workshop 7 Part 3 to here
+        Pet doggy = new Dog("brown", 4);
+        Pet catty = new Cat("white", 4);
+        Pet birdy = new Bird("blue", 2);
+
+        System.out.println("Doggy speak " + doggy.speak());
+        System.out.println("Catty speak " + catty.speak());
+        System.out.println("Birdy speak " + birdy.speak());
+
+        ((Dog)doggy).run();
+        ((Cat)catty).run();
+        ((Bird)birdy).fly();
+
         // TODO : Hidden method echo
         // TODO : print color and legs in method speak
 

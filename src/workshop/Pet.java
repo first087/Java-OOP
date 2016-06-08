@@ -4,8 +4,8 @@ package workshop;
  * Created by Artit on 8/6/2559.
  */
 public abstract class Pet {
-    private String color;
-    private int legs;
+    protected String color;
+    protected int legs;
 
     protected Pet(String color, int legs) {
         this.color = color;

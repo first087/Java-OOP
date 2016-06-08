@@ -10,6 +10,7 @@ public class Cat extends Pet {
 
     @Override
     public String speak() {
+        System.out.println(color + " cat have " + legs + " legs");
         echo();
         return "Meaw Meaw";
     }

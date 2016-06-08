@@ -10,6 +10,7 @@ public class Dog extends Pet {
 
     @Override
     public String speak() {
+        System.out.println(color + " dog have " + legs + " legs");
         echo();
         return "Box Box";
     }

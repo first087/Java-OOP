@@ -11,7 +11,7 @@ public class Main {
 //        OOPWorkshop4();
 //        OOPWorkshop5();
 //        OOPWorkshop6();
-//        OOPWorkshop7();
+        OOPWorkshop7();
     }
 
     private static void OOPWorkshop1() {

@@ -1,5 +1,7 @@
+import workshop.Animal;
 import workshop.Car;
 import workshop.FirstClass;
+import workshop.IAnimal;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class Main {
 //        OOPWorkshop3();
 //        OOPWorkshop4();
 //        OOPWorkshop5();
-//        OOPWorkshop6();
+        OOPWorkshop6();
     }
 
     private static void OOPWorkshop1() {
@@ -123,14 +125,14 @@ public class Main {
         // Implement Animal with IAnimal
 
         // TODO : Uncomment below
-//        IAnimal animal = new Animal("tweety", 2);
-//        animal.setCanFly(true);
-//        System.out.println(
-//                        "Animal name = " + animal.getName() + "\n"
-//                        + "\tage = " + animal.getAge() + "\n"
-//                        + "\tcanFly = " + animal.isCanFly()
-//        );
-//        System.out.println("Animal speak = " + animal.Speak());
+        IAnimal animal = new Animal("tweety", 2);
+        animal.setCanFly(true);
+        System.out.println(
+                        "Animal name = " + animal.getName() + "\n"
+                        + "\tage = " + animal.getAge() + "\n"
+                        + "\tcanFly = " + animal.isCanFly()
+        );
+        System.out.println("Animal speak = " + animal.Speak());
 
         // Run!
     }

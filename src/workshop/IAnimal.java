@@ -10,4 +10,6 @@ public interface IAnimal {
     void setAge(int age);
     boolean isCanFly();
     void setCanFly(boolean canFly);
+
+    String Speak();
 }

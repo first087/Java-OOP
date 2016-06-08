@@ -10,6 +10,7 @@ public class Cat extends Pet {
 
     @Override
     public String speak() {
+        echo();
         return "Meaw Meaw";
     }
 

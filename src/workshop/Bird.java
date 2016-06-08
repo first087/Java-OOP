@@ -10,6 +10,7 @@ public class Bird extends Pet {
 
     @Override
     public String speak() {
+        echo();
         return "Jib Jib";
     }
 

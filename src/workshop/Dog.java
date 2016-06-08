@@ -10,6 +10,7 @@ public class Dog extends Pet {
 
     @Override
     public String speak() {
+        echo();
         return "Box Box";
     }
 

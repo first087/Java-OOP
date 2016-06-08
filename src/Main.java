@@ -1,7 +1,4 @@
-import workshop.Animal;
-import workshop.Car;
-import workshop.FirstClass;
-import workshop.IAnimal;
+import workshop.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -150,17 +147,17 @@ public class Main {
         // Add method fly (return void) in class Bird
 
         // TODO : Uncomment below
-//        Dog dog = new Dog("brown", 4);
-//        Cat cat = new Cat("white", 4);
-//        Bird bird = new Bird("blue", 2);
-//
-//        System.out.println("Dog speak " + dog.speak());
-//        System.out.println("Cat speak " + cat.speak());
-//        System.out.println("Bird speak " + bird.speak());
-//
-//        dog.run();
-//        cat.run();
-//        bird.fly();
+        Dog dog = new Dog("brown", 4);
+        Cat cat = new Cat("white", 4);
+        Bird bird = new Bird("blue", 2);
+
+        System.out.println("Dog speak " + dog.speak());
+        System.out.println("Cat speak " + cat.speak());
+        System.out.println("Bird speak " + bird.speak());
+
+        dog.run();
+        cat.run();
+        bird.fly();
 
         // Run!
 

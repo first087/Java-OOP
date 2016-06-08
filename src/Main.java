@@ -184,7 +184,9 @@ public class Main {
         System.out.println("Doggy speak " + doggy.speak());
         System.out.println("Catty speak " + catty.speak());
         System.out.println("Birdy speak " + birdy.speak());
-        // TODO : call method run of doggy, catty
+
+        ((Dog)doggy).run();
+        ((Cat)catty).run();
         // TODO : call method fly of birdy
 
         // Run!

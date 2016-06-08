@@ -130,6 +130,7 @@ public class Main {
         // Create class Dog, Cat and Bird into folder workshop
         // Add attribute color (type String) in 3 classes
         // Add attribute legs (type int) in 3 classes
+        // Add constructor with 2 parameter for initial 2 attributes
         // Add method speak (return String) in 3 classes
         // Add method run (return void) in class Dog and Cat
         // Add method fly (return void) in class Bird
@@ -153,8 +154,10 @@ public class Main {
         // Create abstract class Pet into folder workshop
         // Add attribute color (type String)
         // Add attribute legs (type int)
+        // Add constructor with 2 parameter for initial 2 attributes
         // Add abstract method speak (return String)
         // Add method echo (return void) and print log in method
+        // Remove all attribute and method speak in class Dog, Cat and Bird
         // Refactor class Dog, Cat, Bird with extends class Pet
         // In method speak of class Dog, Cat, Bird call method echo
 

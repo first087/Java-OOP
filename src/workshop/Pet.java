@@ -6,4 +6,6 @@ package workshop;
 public abstract class Pet {
     private String color;
     private int legs;
+
+    public abstract String speak();
 }

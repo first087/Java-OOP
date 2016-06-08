@@ -9,6 +9,7 @@ public class Main {
 //        OOPWorkshop4();
 //        OOPWorkshop5();
 //        OOPWorkshop6();
+//        OOPWorkshop7();
     }
 
     private static void OOPWorkshop1() {
@@ -118,6 +119,56 @@ public class Main {
 //                        + "\tcanFly = " + animal.isCanFly()
 //        );
 //        System.out.println("Animal speak = " + animal.Speak());
+
+        // Run!
+    }
+
+    private static void OOPWorkshop7() {
+        // Workshop 6 - Abstract Class and Inherit / Extend
+
+        // ----- PART 1 -----
+        // Create class Dog, Cat and Bird into folder workshop
+        // Add attribute color (type String) in 3 classes
+        // Add attribute legs (type int) in 3 classes
+        // Add method speak (return String) in 3 classes
+        // Add method run (return void) in class Dog and Cat
+        // Add method fly (return void) in class Bird
+
+        // TODO : Uncomment below
+//        Dog dog = new Dog("brown", 4);
+//        Cat cat = new Cat("white", 4);
+//        Bird bird = new Bird("blue", 2);
+//
+//        System.out.println("Dog speak " + dog.speak());
+//        System.out.println("Cat speak " + cat.speak());
+//        System.out.println("Bird speak " + bird.speak());
+//
+//        dog.run();
+//        cat.run();
+//        bird.fly();
+
+        // Run!
+
+        // ----- PART 2 -----
+        // Create Class Pet into folder workshop
+        // Add attribute color (type String)
+        // Add attribute legs (type int)
+        // Add abstract method speak (return String)
+        // Add method echo (return void) and print log in method
+        // Refactor class Dog, Cat, Bird with extends class Pet
+        // In method speak of class Dog, Cat, Bird call method echo
+
+        // Run again!
+
+        // ----- PART 3 -----
+        // TODO : Uncomment below
+//        Pet doggy = new Dog("brown", 4);
+//        Pet catty = new Cat("white", 4);
+//        Pet birdy = new Bird("blue", 2);
+
+        // TODO : call method speak of doggy, catty, birdy
+        // TODO : call method run of doggy, catty
+        // TODO : call method fly of birdy
 
         // Run!
     }

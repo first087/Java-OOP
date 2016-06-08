@@ -8,4 +8,8 @@ public abstract class Pet {
     private int legs;
 
     public abstract String speak();
+
+    public void echo() {
+        System.out.println("Ah ammmm!");
+    }
 }

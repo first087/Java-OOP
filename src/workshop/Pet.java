@@ -7,14 +7,14 @@ public abstract class Pet {
     private String color;
     private int legs;
 
-    public Pet(String color, int legs) {
+    protected Pet(String color, int legs) {
         this.color = color;
         this.legs = legs;
     }
 
     public abstract String speak();
 
-    public void echo() {
+    protected void echo() {
         System.out.println("Ah ammmm!");
     }
 }

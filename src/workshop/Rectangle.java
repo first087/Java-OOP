@@ -6,8 +6,7 @@ package workshop;
 public class Rectangle extends Shape implements IShape {
 
     public Rectangle(int width, int height) {
-        super(width, height);
-        formula = "Width x Height";
+        super(width, height, "Rectangle formula = Width x Height");
         printFormula();
     }
 
@@ -16,7 +15,7 @@ public class Rectangle extends Shape implements IShape {
     }
 
     private void printFormula() {
-        System.out.println("Formula = " + formula);
+        System.out.println(formula);
     }
 
     @Override

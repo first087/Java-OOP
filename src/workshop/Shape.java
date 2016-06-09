@@ -8,8 +8,9 @@ public abstract class Shape {
     protected int height;
     protected String formula;
 
-    protected Shape(int width, int height) {
+    protected Shape(int width, int height, String formula) {
         this.width = width;
         this.height = height;
+        this.formula = formula;
     }
 }

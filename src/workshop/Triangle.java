@@ -6,8 +6,7 @@ package workshop;
 public class Triangle extends Shape implements IShape {
 
     public Triangle(int width, int height) {
-        super(width, height);
-        formula = "Width x Height / 2";
+        super(width, height, "Triangle formula = Width x Height / 2");
         printFormula();
     }
 
@@ -16,7 +15,7 @@ public class Triangle extends Shape implements IShape {
     }
 
     private void printFormula() {
-        System.out.println("Formula = " + formula);
+        System.out.println(formula);
     }
 
     @Override

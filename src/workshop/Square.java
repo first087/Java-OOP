@@ -6,8 +6,7 @@ package workshop;
 public class Square extends Shape implements IShape {
 
     public Square(int width) {
-        super(width, width);
-        formula = "Width x Width";
+        super(width, width, "Square formula = Width x Width");
         printFormula();
     }
 
@@ -16,7 +15,7 @@ public class Square extends Shape implements IShape {
     }
 
     private void printFormula() {
-        System.out.println("Formula = " + formula);
+        System.out.println(formula);
     }
 
     @Override

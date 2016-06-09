@@ -265,7 +265,10 @@ public class Main {
         // Create class Circle and inherit from class Square
         // Use override every method
 
-        // TODO : Create circle object from class Circle and call method setDimension and method for calculate area
+        Circle circle = new Circle(70);
+        System.out.println("Circle [70] area = " + circle.calculateArea());
+        circle.setDimension(14);
+        System.out.println("Circle [14] area = " + circle.calculateArea());
 
         // Run!
 

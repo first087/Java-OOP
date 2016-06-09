@@ -199,7 +199,6 @@ public class Main {
 
         // Create class Rectangle, Triangle and Square into folder workshop
         // In 3 classes have attribute width, height and mathematical formula
-        // In 3 classes have overload setter setDimension(int, int) and setDimension(int)
         // In 3 classes have method for return calculate area
         // In 3 classes have method for print mathematical formula and call at constructor
 
@@ -209,20 +208,31 @@ public class Main {
 
         System.out.println("----- END PART 1 -----");
 
+        // Create interface IShape into folder workshop
+        // In interface define method `void setDimension(int, int)`
+        // In 3 classes implement interface
+        // In class Square overload method void setDimension with 1 parameter
+
+        // TODO : Use 3 objects from part 1 call method setDimension and method for calculate area again
+
+        // Run!
+
+        System.out.println("----- END PART 2 -----");
+
         // Refactor 3 classes use abstract class Shape
         // Set accessibility for hidden Shape constructor method for print mathematical formula
 
         // Run again!
 
-        System.out.println("----- END PART 2 -----");
+        System.out.println("----- END PART 3 -----");
 
         // Create class Circle and inherit from class Square
         // Use override every method
 
-        // TODO : Create circle object from class Circle and call method for calculate area
+        // TODO : Create circle object from class Circle and call method setDimension and method for calculate area
 
         // Run!
 
-        System.out.println("----- END PART 3 -----");
+        System.out.println("----- END PART 4 -----");
     }
 }

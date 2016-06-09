@@ -10,6 +10,7 @@ public class Triangle extends Shape implements IShape {
         printFormula();
     }
 
+    @Override
     public long calculateArea() {
         return width * height / 2;
     }

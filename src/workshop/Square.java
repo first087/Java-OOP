@@ -10,6 +10,7 @@ public class Square extends Shape implements IShape {
         printFormula();
     }
 
+    @Override
     public long calculateArea() {
         return width * height;
     }

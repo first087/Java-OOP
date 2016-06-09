@@ -13,4 +13,6 @@ public abstract class Shape {
         this.height = height;
         this.formula = formula;
     }
+
+    public abstract long calculateArea();
 }

@@ -10,6 +10,7 @@ public class Rectangle extends Shape implements IShape {
         printFormula();
     }
 
+    @Override
     public long calculateArea() {
         return width * height;
     }

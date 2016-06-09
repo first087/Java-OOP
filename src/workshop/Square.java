@@ -25,7 +25,11 @@ public class Square implements IShape {
 
     @Override
     public void setDimension(int width, int height) {
+        throw new UnsupportedOperationException("Use overload 1 parameter");
+    }
+
+    public void setDimension(int width) {
         this.width = width;
-        this.height = height;
+        this.height = width;
     }
 }

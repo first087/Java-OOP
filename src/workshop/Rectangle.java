@@ -11,4 +11,8 @@ public class Rectangle {
     public long calculateArea() {
         return width * height;
     }
+
+    private void printFormula() {
+        System.out.println("Formula = " + formula);
+    }
 }

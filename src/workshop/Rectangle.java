@@ -12,6 +12,7 @@ public class Rectangle {
         this.width = width;
         this.height = height;
         formula = "Width x Height";
+        printFormula();
     }
 
     public long calculateArea() {

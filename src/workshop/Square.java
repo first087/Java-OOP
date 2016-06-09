@@ -12,6 +12,7 @@ public class Square {
         this.width = width;
         this.height = width;
         formula = "Width x Width";
+        printFormula();
     }
 
     public long calculateArea() {

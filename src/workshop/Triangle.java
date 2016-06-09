@@ -12,6 +12,7 @@ public class Triangle {
         this.width = width;
         this.height = height;
         formula = "Width x Height / 2";
+        printFormula();
     }
 
     public long calculateArea() {

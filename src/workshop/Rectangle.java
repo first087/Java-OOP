@@ -8,6 +8,11 @@ public class Rectangle {
     private int height;
     private String formula;
 
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
     public long calculateArea() {
         return width * height;
     }

@@ -8,6 +8,11 @@ public class Triangle {
     private int height;
     private String formula;
 
+    public Triangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
     public long calculateArea() {
         return width * height;
     }

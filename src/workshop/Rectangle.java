@@ -3,14 +3,10 @@ package workshop;
 /**
  * Created by Artit on 9/6/2559.
  */
-public class Rectangle implements IShape {
-    private int width;
-    private int height;
-    private String formula;
+public class Rectangle extends Shape implements IShape {
 
     public Rectangle(int width, int height) {
-        this.width = width;
-        this.height = height;
+        super(width, height);
         formula = "Width x Height";
         printFormula();
     }

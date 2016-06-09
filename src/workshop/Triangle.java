@@ -15,10 +15,6 @@ public class Triangle extends Shape implements IShape {
         return width * height / 2;
     }
 
-    private void printFormula() {
-        System.out.println(formula);
-    }
-
     @Override
     public void setDimension(int width, int height) {
         this.width = width;

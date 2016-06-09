@@ -15,10 +15,6 @@ public class Rectangle extends Shape implements IShape {
         return width * height;
     }
 
-    private void printFormula() {
-        System.out.println(formula);
-    }
-
     @Override
     public void setDimension(int width, int height) {
         this.width = width;

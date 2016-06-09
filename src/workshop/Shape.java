@@ -15,4 +15,8 @@ public abstract class Shape {
     }
 
     public abstract long calculateArea();
+
+    protected void printFormula() {
+        System.out.println(formula);
+    }
 }

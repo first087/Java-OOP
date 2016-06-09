@@ -243,7 +243,13 @@ public class Main {
         // In 3 classes implement interface
         // In class Square overload method void setDimension with 1 parameter
 
-        // TODO : Use 3 objects from part 1 call method setDimension and method for calculate area again
+        rectangle.setDimension(40, 50);
+        triangle.setDimension(40, 50);
+        square.setDimension(45);
+
+        System.out.println("Rectangle [40, 50] area = " + rectangle.calculateArea());
+        System.out.println("Triangle [40, 50] area = " + triangle.calculateArea());
+        System.out.println("Square [45] area = " + square.calculateArea());
 
         // Run!
 

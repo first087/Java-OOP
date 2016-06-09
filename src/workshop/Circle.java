@@ -14,4 +14,9 @@ public class Circle extends Square {
         formula = "Circle formula = Pi x (Diameter / 2) x (Diameter / 2)";
         super.printFormula();
     }
+
+    @Override
+    public long calculateArea() {
+        return (width / 2) * (width / 2) * 22 / 7;
+    }
 }

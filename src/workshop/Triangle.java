@@ -3,7 +3,7 @@ package workshop;
 /**
  * Created by Artit on 9/6/2559.
  */
-public class Triangle {
+public class Triangle implements IShape {
     private int width;
     private int height;
     private String formula;
@@ -21,5 +21,11 @@ public class Triangle {
 
     private void printFormula() {
         System.out.println("Formula = " + formula);
+    }
+
+    @Override
+    public void setDimension(int width, int height) {
+        this.width = width;
+        this.height = height;
     }
 }

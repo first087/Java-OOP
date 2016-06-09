@@ -19,4 +19,9 @@ public class Circle extends Square {
     public long calculateArea() {
         return (width / 2) * (width / 2) * 22 / 7;
     }
+
+    @Override
+    public void setDimension(int diameter) {
+        super.setDimension(diameter);
+    }
 }

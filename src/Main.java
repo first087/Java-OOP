@@ -226,7 +226,13 @@ public class Main {
         // In 3 classes have method for return calculate area
         // In 3 classes have method for print mathematical formula and call at constructor
 
-        // TODO : Create 3 objects from 3 classes and call method for calculate area
+        Rectangle rectangle = new Rectangle(30, 40);
+        Triangle triangle = new Triangle(30, 40);
+        Square square = new Square(35);
+
+        System.out.println("Rectangle [30, 40] area = " + rectangle.calculateArea());
+        System.out.println("Triangle [30, 40] area = " + triangle.calculateArea());
+        System.out.println("Square [35] area = " + square.calculateArea());
 
         // Run!
 

@@ -5,16 +5,15 @@ package workshop;
  */
 public class Square {
     private int width;
-    private int height;
     private String formula;
 
-    public Square(int width, int height) {
+    public Square(int width) {
         this.width = width;
-        this.height = height;
+        formula = "Width ^ 2";
     }
 
     public long calculateArea() {
-        return width * height;
+        return width ^ 2;
     }
 
     private void printFormula() {

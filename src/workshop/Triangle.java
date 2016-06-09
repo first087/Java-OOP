@@ -11,10 +11,11 @@ public class Triangle {
     public Triangle(int width, int height) {
         this.width = width;
         this.height = height;
+        formula = "Width x Height / 2";
     }
 
     public long calculateArea() {
-        return width * height;
+        return width * height / 2;
     }
 
     private void printFormula() {

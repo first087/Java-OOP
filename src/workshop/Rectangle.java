@@ -11,6 +11,7 @@ public class Rectangle {
     public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
+        formula = "Width x Height";
     }
 
     public long calculateArea() {

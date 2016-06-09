@@ -7,4 +7,8 @@ public class Triangle {
     private int width;
     private int height;
     private String formula;
+
+    public long calculateArea() {
+        return width * height;
+    }
 }

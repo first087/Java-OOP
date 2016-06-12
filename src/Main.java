@@ -56,8 +56,8 @@ public class Main {
         // ----- PART 4 -----
 
         // TODO : Uncomment below
-//        object1 = null;
-//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+        object1 = null;
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
 

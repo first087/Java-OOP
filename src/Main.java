@@ -35,8 +35,8 @@ public class Main {
         // ----- PART 2 -----
 
         // TODO : Uncomment below
-//        FirstClass object4 = object1;
-//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+        FirstClass object4 = object1;
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
 

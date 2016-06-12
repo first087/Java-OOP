@@ -17,6 +17,8 @@ public class Main {
     private static void OOPWorkshop1() {
         // Workshop #1 - Class vs Object
 
+        // ----- PART 1 -----
+
         // Create 3 objects from class FirstClass
         FirstClass object1 = null;  // TODO : Create object 1 from class FirstClass
         FirstClass object2 = null;  // TODO : Create object 2 from class FirstClass
@@ -28,11 +30,19 @@ public class Main {
 
         // Run!
 
+        System.out.println("----- END PART 1 -----");
+
+        // ----- PART 2 -----
+
         // TODO : Uncomment below
 //        FirstClass object4 = object1;
 //        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
+
+        System.out.println("----- END PART 2 -----");
+
+        // ----- PART 3 -----
 
         // TODO : Uncomment below
 //        object4.setObjectName("Object 4");
@@ -41,11 +51,17 @@ public class Main {
 
         // Run!
 
+        System.out.println("----- END PART 3 -----");
+
+        // ----- PART 4 -----
+
         // TODO : Uncomment below
 //        object1 = null;
 //        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
+
+        System.out.println("----- END PART 4 -----");
     }
 
     private static void OOPWorkshop2() {
@@ -59,6 +75,8 @@ public class Main {
 
         // Run!
 
+        System.out.println("----- END PART 1 -----");
+
         // ----- PART 2 -----
         // Add 1 parameter to constructor [String color]
         // Set value from color to mColor and print log in constructor
@@ -69,6 +87,8 @@ public class Main {
         // Run!
         // Change mColor to color and fix problem
         // Run again!
+
+        System.out.println("----- END PART 2 -----");
     }
 
     private static void OOPWorkshop3() {

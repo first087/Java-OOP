@@ -20,9 +20,9 @@ public class Main {
         // ----- PART 1 -----
 
         // Create 3 objects from class FirstClass
-        FirstClass object1 = new FirstClass();
-        FirstClass object2 = new FirstClass();
-        FirstClass object3 = new FirstClass();
+        FirstClass object1 = new FirstClass("Object 1");
+        FirstClass object2 = new FirstClass("Object 2");
+        FirstClass object3 = new FirstClass("Object 3");
 
         System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
         System.out.println(object2.getObjectName() + " create at " + object2.getDateCreate());

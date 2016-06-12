@@ -22,9 +22,28 @@ public class Main {
         FirstClass object2 = null;  // TODO : Create object 2 from class FirstClass
         FirstClass object3 = null;  // TODO : Create object 3 from class FirstClass
 
-        System.out.println(object1.getDateCreate());
-        System.out.println(object2.getDateCreate());
-        System.out.println(object3.getDateCreate());
+        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
+        System.out.println(object2.getObjectName() + " create at " + object2.getDateCreate());
+        System.out.println(object3.getObjectName() + " create at " + object3.getDateCreate());
+
+        // Run!
+
+        // TODO : Uncomment below
+//        FirstClass object4 = object1;
+//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+
+        // Run!
+
+        // TODO : Uncomment below
+//        object4.setObjectName("Object 4");
+//        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
+//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+
+        // Run!
+
+        // TODO : Uncomment below
+//        object1 = null;
+//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
     }

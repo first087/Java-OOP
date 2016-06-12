@@ -9,21 +9,58 @@ public class Main {
 //        OOPWorkshop5();
 //        OOPWorkshop6();
         OOPWorkshop7();
+//        OOPWorkshop8();
+//        OOPWorkshop9();
     }
 
     private static void OOPWorkshop1() {
         // Workshop #1 - Class vs Object
 
-        // Create 3 objects from class FirstClass
-        FirstClass object1 = new FirstClass();
-        FirstClass object2 = new FirstClass();
-        FirstClass object3 = new FirstClass();
+        // ----- PART 1 -----
 
-        System.out.println(object1.getDateCreate());
-        System.out.println(object2.getDateCreate());
-        System.out.println(object3.getDateCreate());
+        // Create 3 objects from class FirstClass
+        FirstClass object1 = new FirstClass("Object 1");
+        FirstClass object2 = new FirstClass("Object 2");
+        FirstClass object3 = new FirstClass("Object 3");
+
+        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
+        System.out.println(object2.getObjectName() + " create at " + object2.getDateCreate());
+        System.out.println(object3.getObjectName() + " create at " + object3.getDateCreate());
 
         // Run!
+
+        System.out.println("----- END PART 1 -----");
+
+        // ----- PART 2 -----
+
+        // TODO : Uncomment below
+        FirstClass object4 = object1;
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+
+        // Run!
+
+        System.out.println("----- END PART 2 -----");
+
+        // ----- PART 3 -----
+
+        // TODO : Uncomment below
+        object4.setObjectName("Object 4");
+        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+
+        // Run!
+
+        System.out.println("----- END PART 3 -----");
+
+        // ----- PART 4 -----
+
+        // TODO : Uncomment below
+        object1 = null;
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+
+        // Run!
+
+        System.out.println("----- END PART 4 -----");
     }
 
     private static void OOPWorkshop2() {
@@ -37,6 +74,8 @@ public class Main {
 
         // Run!
 
+        System.out.println("----- END PART 1 -----");
+
         // ----- PART 2 -----
         // Add 1 parameter to constructor [String color]
         // Set value from color to mColor and print log in constructor
@@ -47,6 +86,8 @@ public class Main {
         // Run!
         // Change mColor to color and fix problem
         // Run again!
+
+        System.out.println("----- END PART 2 -----");
     }
 
     private static void OOPWorkshop3() {
@@ -196,5 +237,57 @@ public class Main {
         // Run!
 
         System.out.println("----- END PART 3 -----");
+    }
+
+    private static void OOPWorkshop8() {
+        // Workshop 8 - Accessibility
+
+        // TODO : Copy code from Workshop 7 Part 3 to here
+        // TODO : Hidden constructor and method echo in class Pet
+        // TODO : Print color and legs in method speak in class Dog, Cat and Bird
+
+        // Run!
+    }
+
+    private static void OOPWorkshop9() {
+        // Workshop 9 - Recap
+
+        // Create class Rectangle, Triangle and Square into folder workshop
+        // In 3 classes have attribute width, height and mathematical formula
+        // In 3 classes have method for return calculate area
+        // In 3 classes have method for print mathematical formula and call at constructor
+
+        // TODO : Create 3 objects from 3 classes and call method for calculate area
+
+        // Run!
+
+        System.out.println("----- END PART 1 -----");
+
+        // Create interface IShape into folder workshop
+        // In interface define method `void setDimension(int, int)`
+        // In 3 classes implement interface
+        // In class Square overload method void setDimension with 1 parameter
+
+        // TODO : Use 3 objects from part 1 call method setDimension and method for calculate area again
+
+        // Run!
+
+        System.out.println("----- END PART 2 -----");
+
+        // Refactor 3 classes use abstract class Shape
+        // Set accessibility for hidden Shape constructor method for print mathematical formula
+
+        // Run again!
+
+        System.out.println("----- END PART 3 -----");
+
+        // Create class Circle and inherit from class Square
+        // Use override every method
+
+        // TODO : Create circle object from class Circle and call method setDimension and method for calculate area
+
+        // Run!
+
+        System.out.println("----- END PART 4 -----");
     }
 }

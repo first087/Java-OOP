@@ -6,9 +6,11 @@ import java.util.Date;
  * Created by Artit on 31/5/2559.
  */
 public class FirstClass {
+    private String objectName;
     private Date dateCreate;
 
-    public FirstClass() {
+    public FirstClass(String objectName) {
+        this.objectName = objectName;
         dateCreate = new Date();
 
         try {
@@ -16,6 +18,14 @@ public class FirstClass {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public String getObjectName() {
+        return objectName;
+    }
+
+    public void setObjectName(String objectName) {
+        this.objectName = objectName;
     }
 
     public Date getDateCreate() {

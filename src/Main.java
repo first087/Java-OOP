@@ -45,9 +45,9 @@ public class Main {
         // ----- PART 3 -----
 
         // TODO : Uncomment below
-//        object4.setObjectName("Object 4");
-//        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
-//        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
+        object4.setObjectName("Object 4");
+        System.out.println(object1.getObjectName() + " create at " + object1.getDateCreate());
+        System.out.println(object4.getObjectName() + " create at " + object4.getDateCreate());
 
         // Run!
 
